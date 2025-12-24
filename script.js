@@ -84,12 +84,12 @@ let menus = document.getElementById("menus");
 
 menus.innerHTML = menu.map(function(item , index){
     return `<div id="card">
-        <img src="${item.img}"/>
+        <img src=${item.img}/>
         <h2>${item.name}</h2>
         <span>Price : ${item.price} RS</span>
         <button onClick=addTocart(${index})>Add to Cart</button>
-    </div>`
-}).join("")
+    </div>`;
+}).join("");
 
 function addTocart(index){
    
@@ -100,6 +100,7 @@ function addTocart(index){
 
     alert(`${menu[index].name} Is Added To Cart.`)
 }
+
 
 
 
