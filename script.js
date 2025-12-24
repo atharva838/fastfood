@@ -1,81 +1,81 @@
 let menu = [
   {
-    img: "/fastfood/images/paneer.jpg",
+    img: "https://atharva838.github.io/fastfood/images/paneer.jpg",
     name: "Paneer Butter Masala",
     price: 220
   },
   {
-    img: "images/nan.jpg",
+    img: "https://atharva838.github.io/fastfood/images/nan.jpg",
     name: "Butter Naan",
     price: 40
   },
   {
-    img: "images/biryani.jpg",
+    img: "https://atharva838.github.io/fastfood/images/biryani.jpg",
     name: "Veg Biryani",
     price: 180
   },
   {
-    img: "images/dosa.jpg",
+    img: "https://atharva838.github.io/fastfood/images/dosa.jpg",
     name: "Masala Dosa",
     price: 120
   },
   {
-    img: "images/pizza.jpg",
+    img: "https://atharva838.github.io/fastfood/images/pizza.jpg",
     name: "Cheese Pizza",
     price: 250
   },
   {
-    img: "images/burger.jpg",
+    img: "https://atharva838.github.io/fastfood/images/burger.jpg",
     name: "Veg Burger",
     price: 130
   },
   {
-    img: "images/fries.jpg",
+    img: "https://atharva838.github.io/fastfood/images/fries.jpg",
     name: "French Fries",
     price: 90
   },
   {
-    img: "images/thali.jpg",
+    img: "https://atharva838.github.io/fastfood/images/thali.jpg",
     name: "Gujarati Thali",
     price: 260
   },
   {
-    img: "images/manchurian.jpg",
+    img: "https://atharva838.github.io/fastfood/images/manchurian.jpg",
     name: "Veg Manchurian",
     price: 170
   },
   {
-    img: "images/hakka.jpg",
+    img: "https://atharva838.github.io/fastfood/images/hakka.jpg",
     name: "Hakka Noodles",
     price: 160
   },
   {
-    img: "images/pavbhaji.jpg",
+    img: "https://atharva838.github.io/fastfood/images/pavbhaji.jpg",
     name: "Pav Bhaji",
     price: 150
   },
   {
-    img: "media/chole.jpg",
+    img: "https://atharva838.github.io/fastfood/images/chole.jpg",
     name: "Chole Bhature",
     price: 190
   },
   {
-    img: "images/idli.jpg",
+    img: "https://atharva838.github.io/fastfood/images/idli.jpg",
     name: "Idli Sambhar",
     price: 100
   },
   {
-    img: "images/rice.jpg",
+    img: "https://atharva838.github.io/fastfood/images/rice.jpg",
     name: "Veg Fried Rice",
     price: 160
   },
   {
-    img: "images/coffe.jpg",
+    img: "https://atharva838.github.io/fastfood/images/coffe.jpg",
     name: "Cold Coffee",
     price: 110
   },
   {
-    img: "images/brownie.jpg",
+    img: "https://atharva838.github.io/fastfood/images/brownie.jpg",
     name: "Chocolate Brownie",
     price: 140
   }
@@ -100,5 +100,6 @@ function addTocart(index){
 
     alert(`${menu[index].name} Is Added To Cart.`)
 }
+
 
 
