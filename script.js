@@ -1,6 +1,6 @@
 let menu = [
   {
-    img: "fastfood/images/paneer.jpg",
+    img: "/fastfood/images/paneer.jpg",
     name: "Paneer Butter Masala",
     price: 220
   },
@@ -100,4 +100,5 @@ function addTocart(index){
 
     alert(`${menu[index].name} Is Added To Cart.`)
 }
+
 
